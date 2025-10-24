@@ -1,0 +1,194 @@
++ module load scipy-stack
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load python/3.11
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ ENV_DIR=/home/apatronc/.venvs/my_cluster_env
++ '[' '!' -d /home/apatronc/.venvs/my_cluster_env ']'
++ source /home/apatronc/.venvs/my_cluster_env/bin/activate
+++ '[' /home/apatronc/.venvs/my_cluster_env/bin/activate = /localscratch/spool/slurmd/job58079864/slurm_script ']'
+++ deactivate nondestructive
+++ unset -f pydoc
+++ '[' -z '' ']'
+++ '[' -z '' ']'
+++ hash -r
+++ '[' -z '' ']'
+++ unset VIRTUAL_ENV
+++ unset VIRTUAL_ENV_PROMPT
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/home/apatronc/.venvs/my_cluster_env
+++ '[' linux-gnu = cygwin ']'
+++ '[' linux-gnu = msys ']'
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/python/3.11.5/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2025a/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/ipykernel/2025a/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Core/mii/1.1.2/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Core/flexiblascore/3.3.1/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcc12/openmpi/4.1.5/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/ucc/1.2.0/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/pmix/4.2.4/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/libfabric/1.18.0/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/ucx/1.14.1/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/hwloc/2.9.1/sbin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/hwloc/2.9.1/bin:/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/x86_64-pc-linux-gnu/gcc-bin/12:/cvmfs/soft.computecanada.ca/easybuild/bin:/cvmfs/soft.computecanada.ca/custom/bin:/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/bin:/cvmfs/soft.computecanada.ca/custom/bin/computecanada:/opt/software/bin:/opt/software/slurm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/home/apatronc/.local/bin:/home/apatronc/bin
+++ PATH=/home/apatronc/.venvs/my_cluster_env/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/python/3.11.5/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/scipy-stack/2025a/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/ipykernel/2025a/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Core/mii/1.1.2/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Core/flexiblascore/3.3.1/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcc12/openmpi/4.1.5/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/ucc/1.2.0/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/pmix/4.2.4/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/libfabric/1.18.0/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/ucx/1.14.1/bin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/hwloc/2.9.1/sbin:/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/hwloc/2.9.1/bin:/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/x86_64-pc-linux-gnu/gcc-bin/12:/cvmfs/soft.computecanada.ca/easybuild/bin:/cvmfs/soft.computecanada.ca/custom/bin:/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/bin:/cvmfs/soft.computecanada.ca/custom/bin/computecanada:/opt/software/bin:/opt/software/slurm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/home/apatronc/.local/bin:/home/apatronc/bin
+++ export PATH
+++ '[' x '!=' x ']'
++++ basename /home/apatronc/.venvs/my_cluster_env
+++ VIRTUAL_ENV_PROMPT=my_cluster_env
+++ export VIRTUAL_ENV_PROMPT
+++ '[' -z '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ PS1='(my_cluster_env) '
+++ export PS1
+++ alias pydoc
+++ true
+++ hash -r
++ echo 'Virtual environment activated: /home/apatronc/.venvs/my_cluster_env'
+Virtual environment activated: /home/apatronc/.venvs/my_cluster_env
++ which python
++ alias
++ eval declare -f
+++ declare -f
++ /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot python
+/home/apatronc/.venvs/my_cluster_env/bin/python
++ python --version
+Python 3.11.5
++ python -c 'import networkx; print('\''NetworkX imported successfully'\'')'
+NetworkX imported successfully
++ env
++ sort
++ SCRIPT_PATH=/project/6007000/apatronc/sscode-cluster.py
++ '[' '!' -f /project/6007000/apatronc/sscode-cluster.py ']'
++ echo 'Starting Python script execution...'
+Starting Python script execution...
++ python -u /project/6007000/apatronc/sscode-cluster.py
++ echo 'Python script execution finished.'
+Python script execution finished.
++ cat job_output.log
+Eigenvalues = [0.9995    +0.j 0.99791547+0.j 0.99621486+0.j]
+Eigenvalues = [0.99998   +0.j 0.9983947 +0.j 0.99669328+0.j]
+-1324.3702468534802 -1325.0573431302116 0.6870962767313813
+Eigenvalues = [0.9995    +0.j 0.99737199+0.j 0.99508938+0.j]
+Eigenvalues = [0.99998   +0.j 0.99785097+0.j 0.99556725+0.j]
+-985.6260826702587 -986.3119531093118 0.6858704390531329
+Eigenvalues = [0.9995    +0.j 0.99664242+0.j 0.99357952+0.j]
+Eigenvalues = [0.99998   +0.j 0.99712104+0.j 0.99405667+0.j]
+-733.4717199770898 -734.1567814656208 0.6850614885310051
+Eigenvalues = [0.9995    +0.j 0.99566326+0.j 0.99155498+0.j]
+Eigenvalues = [0.99998   +0.j 0.99614141+0.j 0.99203115+0.j]
+-545.7731398420785 -546.4575797213407 0.684439879262186
+Eigenvalues = [0.9995    +0.j 0.99434957+0.j 0.98884206+0.j]
+Eigenvalues = [0.99998   +0.j 0.99482709+0.j 0.98931694+0.j]
+-406.05422784642343 -406.7380910052593 0.6838631588358908
+Eigenvalues = [0.9995    +0.j 0.99258785+0.j 0.98520986+0.j]
+Eigenvalues = [0.99998   +0.j 0.99306452+0.j 0.98568299+0.j]
+-302.05050658287246 -302.73373871424394 0.6832321313714829
+Eigenvalues = [0.9995    +0.j 0.99022671+0.j 0.98035251+0.j]
+Eigenvalues = [0.99998   +0.j 0.99070225+0.j 0.98082331+0.j]
+-224.6325640107733 -225.3150288584261 0.6824648476527955
+Eigenvalues = [0.9995    +0.j 0.98706474+0.j 0.9738669 +0.j]
+Eigenvalues = [0.99998   +0.j 0.98753876+0.j 0.97433459+0.j]
+-167.0046765484183 -167.68615650090467 0.6814799524863702
+Eigenvalues = [0.9995    +0.j 0.98283491+0.j 0.96522533+0.j]
+Eigenvalues = [0.99998   +0.j 0.9833069 +0.j 0.96568886+0.j]
+-124.1082822392128 -124.78846678609678 0.6801845468839787
+Eigenvalues = [0.9995    +0.j 0.97718479+0.j 0.95374342+0.j]
+Eigenvalues = [0.99998   +0.j 0.97765407+0.j 0.95420144+0.j]
+-92.17794093593784 -92.85640464272603 0.6784637067881931
+Eigenvalues = [0.9995    +0.j 0.96965214+0.j 0.93854501+0.j]
+Eigenvalues = [0.99998   +0.j 0.9701178 +0.j 0.93899573+0.j]
+-68.41080360364884 -69.08697349262633 0.6761698889774834
+Eigenvalues = [0.9995    +0.j 0.95963591+0.j 0.91852859+0.j]
+Eigenvalues = [0.99998   +0.j 0.96009676+0.j 0.9189697 +0.j]
+-50.72057646534237 -51.393687540987 0.6731110756446341
+Eigenvalues = [0.9995    +0.j 0.94636375+0.j 0.89234483+0.j]
+Eigenvalues = [0.99998   +0.j 0.94681822+0.j 0.89277336+0.j]
+-37.554382362919704 -38.223419293302925 0.6690369303832213
+Eigenvalues = [0.9995    +0.j 0.92885941+0.j 0.8584028 +0.j]
+Eigenvalues = [0.99997999+0.j 0.92930547+0.j 0.85881504+0.j]
+-27.756442337142595 -28.42006500287114 0.6636226657285462
+Eigenvalues = [0.9995    +0.j 0.90591751+0.j 0.81493453+0.j]
+Eigenvalues = [0.99997999+0.j 0.90635256+0.j 0.81532589+0.j]
+-20.466609528398987 -21.123060490523063 0.6564509621240759
+Eigenvalues = [0.9995    +0.j 0.87609946+0.j 0.7601616 +0.j]
+Eigenvalues = [0.99997999+0.j 0.8765202 +0.j 0.76052666+0.j]
+-15.04484559078902 -15.691838978460227 0.6469933876712073
+Eigenvalues = [0.9995    +0.j 0.83777435+0.j 0.69262013+0.j]
+Eigenvalues = [0.99997999+0.j 0.83817668+0.j 0.69295275+0.j]
+-11.015005104845567 -11.649599796108033 0.6345946912624658
+Eigenvalues = [0.9995    +0.j 0.78924071+0.j 0.61169449+0.j]
+Eigenvalues = [0.99997999+0.j 0.78961973+0.j 0.61198825+0.j]
+-8.02298544281415 -8.6414519469291 0.6184665041149504
+Eigenvalues = [0.9995    +0.j 0.72897668+0.j 0.51835968+0.j]
+Eigenvalues = [0.99997999+0.j 0.72932676+0.j 0.51860862+0.j]
+-5.80555657851371 -6.403258353637403 0.597701775123693
+Eigenvalues = [0.9995    +0.j 0.65606465+0.j 0.4159959 +0.j]
+Eigenvalues = [0.99997999+0.j 0.65637972+0.j 0.41619568+0.j]
+-4.167118179215261 -4.738445822661426 0.5713276434461649
+Eigenvalues = [0.9995    +0.j 0.57080181+0.j 0.31090174+0.j]
+Eigenvalues = [0.99997999+0.j 0.57107593+0.j 0.31105105+0.j]
+-2.9623236555029417 -3.5007446480063464 0.5384209925034047
+Eigenvalues = [0.9995    +0.j 0.47540749+0.j 0.21188327+0.j]
+Eigenvalues = [0.99997999+0.j 0.47563581+0.j 0.21198503+0.j]
+-2.083028262199996 -2.581341214616189 0.4983129524161929
+Eigenvalues = [0.9995    +0.j 0.37455638+0.j 0.12834077+0.j]
+Eigenvalues = [0.99997999+0.j 0.37473626+0.j 0.12840241+0.j]
+-1.4484161575723695 -1.8993116356003432 0.4508954780279737
+Eigenvalues = [0.9995    +0.j 0.27526672+0.j 0.06704113+0.j]
+Eigenvalues = [0.99997999+0.j 0.27539892+0.j 0.06707333+0.j]
+-0.9974897425187847 -1.3944866729530312 0.39699693043424644
+Eigenvalues = [0.9995    +0.j 0.18567863+0.j 0.02919654+0.j]
+Eigenvalues = [0.99997999+0.j 0.18576781+0.j 0.02921056+0.j]
+-0.6834044148304498 -1.0221021771346108 0.33869776230416104
+Eigenvalues = [0.9995    +0.j 0.11278414+0.j 0.0102138 +0.j]
+Eigenvalues = [0.99997999+0.j 0.11283831+0.j 0.01021871+0.j]
+-0.4694071619092602 -0.7487403676326061 0.2793332057233459
+Eigenvalues = [0.9995    +0.j 0.06014963+0.j 0.00274544+0.j]
+Eigenvalues = [0.99997999+0.j 0.06017852+0.j 0.00274676+0.j]
+-0.3263030140015871 -0.5492100577867005 0.2229070437851134
+Eigenvalues = [9.99500000e-01+0.j 2.70982166e-02+0.j 5.30637862e-04+0.j]
+Eigenvalues = [9.99979991e-01+0.j 2.71112322e-02+0.j 5.30892837e-04+0.j]
+-0.2312586077049848 -0.40420979458778855 0.17295118688280375
+Eigenvalues = [9.99500000e-01+0.j 9.69673133e-03+0.j 6.58043032e-05+0.j]
+Eigenvalues = [9.99979990e-01+0.j 9.70138885e-03+0.j 6.58359246e-05+0.j]
+-0.16735161726357534 -0.298817199280077 0.13146558201650166
+Eigenvalues = [9.99500000e-01+0.j 2.51386516e-03+0.j 4.35741451e-06+0.j]
+Eigenvalues = [9.99979990e-01+0.j 2.51507263e-03+0.j 4.35950848e-06+0.j]
+-0.12306158431782832 -0.22174949845265582 0.0986879141348275
+Eigenvalues = [9.99500000e-01+0.j 4.16326210e-04+0.j 1.18969717e-07+0.j]
+Eigenvalues = [9.99979990e-01+0.j 4.16526181e-04+0.j 1.19026889e-07+0.j]
+-0.09127264682485671 -0.1649128062471152 0.0736401594222585
+Eigenvalues = [9.99500000e-01+0.j 3.73756863e-05+0.j 9.58044609e-10+0.j]
+Eigenvalues = [9.99979990e-01+0.j 3.73936387e-05+0.j 9.58504995e-10+0.j]
+-0.06789679224026055 -0.12273708209265245 0.05484028985239191
+Eigenvalues = [9.99500000e-01+0.j 1.46789162e-06+0.j 1.47761316e-12+0.j]
+Eigenvalues = [9.99979990e-01+0.j 1.46859668e-06+0.j 1.47832753e-12+0.j]
+-0.05053787550851837 -0.09136159971198675 0.04082372420346838
+Eigenvalues = [9.99500000e-01+0.j 1.89696103e-08+0.j 2.40504184e-16+0.j]
+Eigenvalues = [9.99979990e-01+0.j 1.89787218e-08+0.j 2.46528801e-16+0.j]
+-0.03761930410494054 -0.06800773107088023 0.030388426965939692
+Eigenvalues = [9.99500000e-01+0.00000000e+00j 5.50640833e-11+0.00000000e+00j 1.46527077e-17+2.43605616e-17j]
+Eigenvalues = [9.99979990e-01+0.j 5.50905299e-11+0.j 2.16271060e-17+0.j]
+-0.02800306800315929 -0.0506236149189114 0.02262054691575211
+Eigenvalues = [9.99500000e-01+0.00000000e+00j 2.14954410e-14+0.00000000e+00j 1.97960286e-17+2.21415166e-17j]
+Eigenvalues = [9.99979990e-01+0.00000000e+00j 2.15106937e-14+0.00000000e+00j 1.67334761e-17+1.38080219e-17j]
+-0.020844932196223395 -0.03768322172658125 0.016838289530357854
+Eigenvalues = [ 9.99500000e-01+0.00000000e+00j  2.49280070e-17+0.00000000e+00j -1.37514501e-17+2.05453151e-17j]
+Eigenvalues = [ 9.99979990e-01+0.00000000e+00j -1.62797877e-17+0.00000000e+00j  1.03290656e-17+1.12402026e-17j]
+-0.01551655690932692 -0.02805064794373546 0.01253409103440854
+Eigenvalues = [ 9.99500000e-01+0.00000000e+00j  2.49280070e-17+0.00000000e+00j -1.37514501e-17+2.05453151e-17j]
+Eigenvalues = [ 9.99979990e-01+0.00000000e+00j -1.62797877e-17+0.00000000e+00j  1.03290656e-17+1.12402026e-17j]
+-0.011550219307693914 -0.02088034976872405 0.009330130461030135
+Eigenvalues = [ 9.99500000e-01+0.00000000e+00j  2.49280070e-17+0.00000000e+00j -1.37514501e-17+2.05453151e-17j]
+Eigenvalues = [ 9.99979990e-01+0.00000000e+00j -1.62797877e-17+0.00000000e+00j  1.03290656e-17+1.12402026e-17j]
+-0.00859775572863297 -0.015542921052617712 0.0069451653239847415
+Eigenvalues = [ 9.99500000e-01+0.00000000e+00j  2.49280070e-17+0.00000000e+00j -1.37514501e-17+2.05453151e-17j]
+Eigenvalues = [ 9.99979990e-01+0.00000000e+00j -1.62797877e-17+0.00000000e+00j  1.03290656e-17+1.12402026e-17j]
+-0.006400000000000001 -0.011569844256620871 0.00516984425662087
